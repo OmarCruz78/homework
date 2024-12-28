@@ -6,27 +6,45 @@
 body{
   font-family: Georgia, serif; 
   font-size: 20px;
-  color: white;
-  background-color: #00004a;
+  color: #000099;
+  background-color: #FFFFFF;
 }
 
 header{
-background: blue;
+background-color: #000099;
+color: #ffffff;
 }
 
 nav{
-    background-color: #6d7d5d;
+    background-color: #dddddd;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    line-height: 2em;
+}
+
+a{
+    color: #612105;
+}
+main{
+    background-color: #dddddd;
+    color: #00008f;
+}
+
+footer{
+    color: #dddddd;
+    background-color: #00008f;
+}
+
+footer a{
+    color: #ffffff;
 }
 
  li{
    display: inline-block;
-   width: 150px;
+   width: 200px;
  }
 
-main{
-    background-color: #888899;
-    color: #00008f;
-}
 
  h1{
      text-align: center;
@@ -35,7 +53,3 @@ main{
  p{
      line-height: 2em;
  }
-footer{
-    color: #999999;
-    background-color: #00008f;
-}
