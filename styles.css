@@ -6,10 +6,36 @@
 body{
   font-family: Georgia, serif; 
   font-size: 20px;
-  background-color: blue;
-  background-color: #74992e;
+  color: white;
+  background-color: #00004a;
 }
 
 header{
-background: linear-gradient(#e66465, #9198e5);
+background: blue;
+}
+
+nav{
+    background-color: #6d7d5d;
+}
+
+ li{
+   display: inline-block;
+   width: 150px;
+ }
+
+main{
+    background-color: #888899;
+    color: #00008f;
+}
+
+ h1{
+     text-align: center;
+ }
+
+ p{
+     line-height: 2em;
+ }
+footer{
+    color: #999999;
+    background-color: #00008f;
 }
